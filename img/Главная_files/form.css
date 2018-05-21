@@ -1,0 +1,199 @@
+/************************* form-block *************************/
+
+.label {
+    display: block;
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-family: 'aglettericacondensedcregular';
+    text-transform: uppercase;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    margin: 0 0 10px;
+    color: #000;
+    font-size: 18px;
+    background: #fff;
+    border: 3px solid #fff;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.input:hover,
+.input:focus {
+    border: 3px solid #0191f1;
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'aglettericacondensedcbold';
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #ff2d4d;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    border: none;
+}
+
+.submit:hover {
+    background: #e52946;
+}
+
+.submit-blue {
+    background: #0191f1;
+}
+
+.button-blue:hover {
+    background: #0383d8;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+:-moz-placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #000;
+}
+
+.input.error,
+.textarea.error {
+    color: rgb(255, 86, 71);
+    background-color: rgb(255, 206, 202);
+}
+
+label.error {
+    position: absolute;
+    left: -9999px;
+}
+
+.select-block select {
+    width: 100%;
+}
+
+
+
+/* Checkbox */
+
+.checker {
+    float: left;
+    position: relative;
+}
+
+.checker,
+.checker span,
+.checker input {
+    display: block;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.checker span {
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    cursor: pointer;
+    text-align: center;
+    background: url(../images/checkbox.png) 0 0 no-repeat;
+}
+
+.checker span.checked {
+    background-position: 0 -23px;
+}
+
+.checker input {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    border: none;
+    background: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    display: block;
+}
+
+
+/*popup*/
+
+.popup {
+    display: none;
+    width: 400px;
+    padding: 15px;
+}
+.popup-title {
+    margin: 0 0 20px;
+    font-size: 27px;
+    font-family: 'futuraPT-Medium';
+    line-height: 30px;
+    text-align: center;
+}
+.popup .input {border: 3px solid #eee;}
+.popup .input:hover, .popup .input:focus {border: 3px solid #0191f1;}
+.thnx-text {
+    width: 600px;
+    padding: 100px 0 0;
+    margin: 0 auto;
+    color: #000;
+    font-size: 40px;
+    font-family: 'FuturaPTBook';
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.thnx .footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -480px;
+}
+
+/************** 18.11.2016 **************/
+.header {margin: 50px 0 0;}
+.fix-top {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgb(4, 128, 209);
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+.fix-top ul {
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 0 -100px;
+}
+.fix-top li {
+    display: inline-block;
+    margin: 0 85px;
+    font-size: 20px;
+}
+.fix-top a {
+    color: #fff;
+}

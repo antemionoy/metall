@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'futuraPT-Demi';
+     src:url('FuturaPT-Demi.woff') format('woff'),
+         url('FuturaPT-Demi.otf') format('otf'),
+         url('FuturaPT-Demi.ttf')format('ttf'),
+         url('FuturaPT-Demi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
