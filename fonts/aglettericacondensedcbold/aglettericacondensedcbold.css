@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'aglettericacondensedcbold';
+    src: url('aglettericacondensedc-bold-webfont.eot');
+    src: url('aglettericacondensedc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aglettericacondensedc-bold-webfont.woff2') format('woff2'),
+         url('aglettericacondensedc-bold-webfont.woff') format('woff'),
+         url('aglettericacondensedc-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
